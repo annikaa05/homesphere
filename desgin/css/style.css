@@ -237,6 +237,18 @@ section{
 .home .center form .box p span{
    color: var(--main-color);
 }
+.login{
+   background:url('../images/bg.jpg') no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+.register{
+   background:url('../images/bg.jpg') no-repeat;
+   background-size: cover;
+   background-position: center;
+  
+}
 
 .services .box-container{
    display: grid;
@@ -819,6 +831,7 @@ section{
 }
 
 .form-container form{
+   
    max-width: 50rem;
    margin: 0 auto;
    /* margin-top: 1em; */
@@ -830,6 +843,7 @@ section{
    border-radius: 5%;
    
 }
+
 
 .form-container form h3{
    padding-bottom: 1rem;
@@ -861,16 +875,6 @@ section{
    text-decoration: underline;
 }
 
-.form-container{
-   background-image: url("../images/home-bg.jpg");
-   width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-   min-height: 84vh;
-   background-size: cover;
-   background-position: center; 
-}
 .footer{
    background-color: var(--black);
 }
